@@ -1,0 +1,151 @@
+body{
+
+
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+.title-1{
+    padding-right: 150px;
+    padding-left: 150px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+.text-1{
+    padding-right: 150px;
+    padding-left: 150px;
+    font-size: 17px;
+    font-weight: 100;
+    text-align: left;
+    line-height: 1.4;
+
+
+
+
+
+}
+.warn-1{
+    padding-right: 150px;
+    padding-left: 150px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.4;
+    padding-top: 15px;
+
+}
+.warn-1-1{
+    padding-right: 150px;
+    padding-left: 150px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.4;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.warn-2-1{
+
+
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.4;
+
+
+}
+ul,ol{
+
+    padding-right: 150px;
+    padding-left: 180px;
+    font-size: 17px;
+    font-weight: 100;
+    text-align: left;
+    line-height: 1.4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+@media (max-width:767px){
+
+    .title-1{
+        padding-right: 50px;
+        padding-left: 50px;
+        font-size: 30px;
+        font-weight: 400;
+        text-align: left;
+        padding-top: 30px;
+        padding-bottom: 35px;
+    }
+    .text{
+        padding-right: 50px;
+        padding-left: 50px;
+        font-size: 17px;
+        font-weight: 100;
+        text-align: left;
+        line-height: 1.4;
+
+
+
+
+
+    }
+    .warn{
+        padding-right: 50px;
+        padding-left: 50px;
+        font-size: 17px;
+        font-weight: 500;
+        text-align: left;
+        line-height: 1.4;
+        padding-top: 15px;
+
+    }
+    .warn-1{
+        padding-right: 50px;
+        padding-left: 50px;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: left;
+        line-height: 1.4;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+    }
+    .warn-2{
+
+
+        font-size: 17px;
+        font-weight: 500;
+        text-align: left;
+        line-height: 1.4;
+
+
+    }
+    ul,ol{
+
+        padding-right: 50px;
+        padding-left: 60px;
+        font-size: 17px;
+        font-weight: 100;
+        text-align: left;
+        line-height: 1.4;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+
+    }
+    li{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+}

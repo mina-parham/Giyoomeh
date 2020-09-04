@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+head title{
+  background-image:url("./components/images/logo11.png") ;
+  width: 35px;
+  height: 35px;
+}

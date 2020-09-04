@@ -1,0 +1,71 @@
+.body{
+
+    font-family: 'Oswald', sans-serif;
+
+}
+.title{
+    padding-right: 150px;
+    padding-left: 150px;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.text{
+    padding-right: 150px;
+    padding-left: 150px;
+    font-size: 17px;
+    font-weight: 100;
+    text-align: left;
+    line-height: 1.4;
+
+}
+.warn{
+    padding-right: 150px;
+    padding-left: 150px;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 1.4;
+    padding-top: 15px;
+
+}
+.wrn-1{
+    padding-right: 150px;
+    padding-left: 150px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.4;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.warn-2{
+
+
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.4;
+
+
+}
+ul{
+
+    padding-right: 150px;
+    padding-left: 180px;
+    font-size: 17px;
+    font-weight: 100;
+    text-align: left;
+    line-height: 1.4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

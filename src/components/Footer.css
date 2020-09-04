@@ -1,0 +1,133 @@
+#myFooter {
+    background-color: #373a48;
+    color:white;
+}
+
+#myFooter .footer-copyright{
+    padding-top:3px;
+    padding-bottom:3px;
+    text-align: center;
+}
+
+#myFooter .footer-copyright p{
+    margin:10px;
+    color: #ccc;
+}
+.a-left{
+    margin:10px;
+    color: #ccc;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 200;
+}
+.a-right{
+    margin:10px;
+    color: #ccc;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 200;
+}
+#myFooter ul{
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+
+#myFooter h5{
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+#myFooter a{
+    color:#d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+    text-decoration: none;
+    color:white;
+}
+
+#myFooter .myCols{
+    text-align: center;
+}
+
+#myFooter .social-networks{
+    text-align: center;
+    padding-top: 30px;
+    vertical-align: center;
+    margin-top: 50px;
+    background-color: white;
+}
+
+#myFooter .social-networks a{
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: darkgray;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover{
+    text-decoration: none;
+
+}
+
+#myFooter .facebook:hover{
+    color:#3B5998;
+}
+
+#myFooter .google:hover{
+    color:#ef1a1a;
+}
+
+#myFooter .twitter:hover{
+    color: #00aced;
+}
+#myFooter .instagram:hover{
+    color:#517fa4;
+}
+#myFooter .linkedin:hover{
+    color:#04669A;
+}
+
+@media screen and (max-width: 767px){
+    #myFooter {
+        text-align: center;
+    }
+}
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+
+html{
+    height: 100% !important;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+    flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    min-height: 200px;
+}
+
+#myFooter{
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}

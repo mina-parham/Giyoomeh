@@ -1,0 +1,241 @@
+body{
+    padding:0;
+    margin:0;
+}
+.font{
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    text-align:center
+}
+.font-2{
+    font-size:24px;
+    line-height:29px;
+    letter-spacing:.05em;
+    font-weight:400
+}
+.font-3{
+    font-size:16px;
+    font-weight:200;
+}
+.font-3,.font-4{
+    line-height:26px;
+    margin-bottom:12px;
+}
+.font-4{
+    font-size:13px;
+    font-weight:100;
+    opacity:.8
+}
+.pad{
+    padding-top:66px;
+    padding-bottom:66px;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width:50%;
+    display:-webkit-box
+}
+.pad-1{
+    display:table-row
+}
+.pad-2{
+
+
+    display:table-cell;
+    vertical-align:middle;
+    padding-right: 20px;
+}
+.pic{
+    width:30px;
+    height:30px
+}
+.social-networks{
+    padding-top:30px;
+    padding-bottom:38px
+}
+.social-networks a
+{
+    font-size:32px;
+    margin-right:5px;
+    margin-left:5px;
+    color:#a9a9a9;
+    padding:10px;
+    -webkit-transition:.2s;
+    -o-transition:.2s;
+    transition:.2s
+}
+.social-networks a:hover{
+    text-decoration:none
+}
+.apple:hover{
+    color:#fdd835
+}
+.desktop:hover{
+    color:#ef1a1a
+}
+.android:hover{
+    color:#519c3f
+}
+.windows:hover{
+    color:#0d47a1
+}
+.pad-height-2{
+    height:140px
+}
+.phone-picture{
+    background-image:url('./images/apple-iphone6splus-rosegold-landscape.png');
+    width:240px;
+    height:500px;
+
+}
+.phone-picture,.pic-logo{
+    background-repeat:no-repeat;
+    background-position:50%
+}
+.pic-logo{
+    background-image:url('./images/logo11.png');
+    width:100%;
+    height:200px;
+    background-size:contain
+}
+.pi{
+    width:100%;
+    display:-webkit-box;
+    height:600px
+}
+.pic-1{
+    background-color:#d0e9ea;
+    padding-top:58px;
+    width:calc(49.9% - 10px)
+}
+.pic-2{
+    margin-right:12%;
+    margin-left:12%
+}
+.pic-4{
+    margin-top:70px
+}
+.txt-1{
+    font-size:14px;
+    line-height:21px;
+    text-align:center
+}
+.giyoomeh-style{
+    background-image:url('./images/priscilla-du-preez-228220-unsplash.jpg')
+}
+.business,.giyoomeh-style{
+    background-repeat:no-repeat;
+    height:600px;
+    width:calc(49.9% - 10px);
+    background-size:cover;
+    bottom:0}
+.business{background-image:url('./images/rawpixel-623440-unsplash.jpg')
+}
+.studio{
+    background-image:url('./images/krists-luhaers-676036-unsplash.jpg')
+}
+.idea,.studio{
+    background-repeat:no-repeat;
+    height:600px;
+    width:calc(49.9% - 10px);
+    background-size:cover;
+    bottom:0
+}
+.idea{
+    background-image:url(images/diego-ph-254975-unsplash.jpg)
+}
+.delivery{
+    background-image:url('./images/chris-barbalis-630491-unsplash.jpg');
+
+}
+.core,.delivery{
+    background-repeat:no-repeat;
+    height:600px;
+    width:calc(49.9% - 10px);
+    background-size:cover;
+    bottom:0
+}
+.core{
+    background-image:url('./images/kelly-sikkema-580858-unsplash.jpg')
+}
+.learn-more{
+    padding-right:40px;
+    font-size:16px
+}
+.pad-3{
+    width:20px
+}
+.pad-height{
+    height:20px
+}
+.pic-3{
+    background-color:#edf8f5;
+    width:50%;
+    float:none
+}
+.animate{
+    height:272px;
+    width:272px;
+    background-color:#7fffd4;
+    margin-bottom:28px;
+    margin-left:auto;
+    margin-right:auto
+}
+.fa-android{
+    width:25px;
+    height:25px
+}
+.logo-footer{
+    background-image:url('./images/sarah logotype white.png');
+    width:100%;
+    height:100%
+}
+@media (max-width:767px){
+    .pad{
+        padding-top:66px;
+        padding-bottom:66px;
+        position:relative;
+        margin-left:auto;
+        margin-right:auto;
+        -webkit-box-sizing:border-box;
+        box-sizing:border-box;
+        width:100%;
+        display:-webkit-box
+    }
+    .pad-2{
+        display:table;
+        text-align:center;
+        padding-right:35px;
+        padding-left:35px;
+        width:50%;
+        margin:0 auto
+    }
+    .phone-picture-response{
+        background-position:50%;
+        width:308px;
+        margin:0 auto
+    }
+    .pi-response{
+        display:table;
+        width:100%
+    }
+    .pic-3-response{
+        width:100%
+    }
+    .pic-4{
+        padding-top:50px
+    }
+    .pic-2{
+        margin-top:0;
+        padding-bottom:10px
+    }
+    .pad-height{
+        height:0
+    }
+    .business,.core,.delivery,.giyoomeh-style,.idea,.studio{
+        width:100%
+    }
+}
+
